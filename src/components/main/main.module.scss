@@ -1,0 +1,73 @@
+.main {
+	padding-inline: var(--platform-padding);
+	padding-block: 4rem;
+}
+
+.heading {
+	font-weight: 600;
+	font-size: 3rem;
+	margin-block-end: 4rem;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 1.6rem;
+	min-width: 0;
+	width: 100%;
+	justify-content: center;
+}
+
+.labelGroup {
+	display: flex;
+	gap: 2rem;
+	margin-block-end: 2rem;
+	flex-wrap: wrap;
+}
+
+.label {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-size: 1.6rem;
+}
+
+.btn {
+	font-size: 1.6rem;
+	padding-block: 1rem;
+	padding-inline: 2rem;
+	display: block;
+	max-inline-size: 20rem;
+	width: 100%;
+	background-color: transparent;
+	margin-block-end: 2rem;
+	cursor: pointer;
+
+	&:focus,
+	&:active {
+		outline: none;
+	}
+}
+
+.error {
+	font-weight: 600;
+	font-size: 3rem;
+	margin-block-end: 4rem;
+	color: var(--secondary);
+	text-align: center;
+}
+
+.loading {
+	font-weight: 600;
+	font-size: 2.5rem;
+	text-align: center;
+	margin-block-start: 2rem;
+}
+
+.empty {
+	font-weight: 600;
+	font-size: 3rem;
+	text-align: center;
+	margin-block-start: 2rem;
+	text-align: center;
+}

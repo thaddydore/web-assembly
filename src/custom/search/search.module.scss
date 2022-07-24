@@ -1,0 +1,20 @@
+.search {
+	margin-block: 2rem;
+}
+
+.input {
+	padding-block: 1rem;
+	padding-inline: 1.5rem;
+	width: 100%;
+	font-size: 1.6rem;
+	color: var(--dark);
+	transition: all 1s ease-in-out;
+}
+
+input:focus {
+	outline: 1px solid var(--gray);
+}
+
+input::placeholder {
+	font-size: 1.6rem;
+}
